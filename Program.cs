@@ -92,11 +92,9 @@ namespace Test
                 Student s2 = new Student("LN2", "FN2", 20, Randomizer(out s, out r));
                 Student s3 = new Student("LN3", "FN3", 32, Randomizer(out s, out r));
 
-                for (int i = 0;i < 3; i++) 
-                {
-                    s[i].Show();
-                Age_mark(ref s1, ref b);
-                }
+               s1.Show(); Age_mark(ref s1, ref b);WriteLine();
+                s2.Show(); Age_mark(ref s2, ref b); WriteLine();
+                s3.Show(); Age_mark(ref s3, ref b); WriteLine();
                 
                 
                
